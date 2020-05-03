@@ -1,0 +1,60 @@
+/********base style********/
+	*{
+		box-sizing: border-box;
+	}
+	.row{
+		width: 100%;
+	}
+	h1{
+		text-align: center;
+	}
+	.section{
+    	background-color: #999B99;
+    	margin: 20px;
+    	position: relative;
+    	border: 1px solid black;
+    }
+    h2{
+    	position: absolute;
+    	top: -20px;
+    	right: 0px;
+    	border: 1px solid black;
+    	padding-left: 10px;
+    	padding-right: 10px;
+    	background-color:  #00ffff
+
+    }
+    p{
+    	
+    	padding: 10px;
+    	padding-top: 25px;
+    }
+    #item1{
+    	background-color: #FF7E16;
+    }
+    #item2{
+    	background-color: #00DF53;
+    }
+    #item3{
+    	background-color: #4CEDFF;
+    }
+
+/********large device********/
+	@media (min-width: 992px){
+    .col-lg-3{
+    	float: left;
+    	width: 33.33%;
+    }
+}
+/********medium device********/
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		width: 50%;
+		float: left;
+	}
+	.col-md-12{
+		width: 100%;
+		float: left;
+	}
+
+}
